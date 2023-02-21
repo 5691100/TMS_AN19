@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf360d8a-1966-46f1-a54f-0f09fe04692b" name="Changes" comment="L2_full_add">
-      <change afterPath="$PROJECT_DIR$/src/Lesson2/Adds/Adds_1.java" afterDir="false" />
+    <list default="true" id="bf360d8a-1966-46f1-a54f-0f09fe04692b" name="Changes" comment="L2_adds_add">
+      <change afterPath="$PROJECT_DIR$/src/Lesson3/Add/Adds_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3/Add/Adds_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3/Add/Adds_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3/Add/Adds_QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3/Add/Adds_Sort1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3/Add/Adds_Sort2_Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3/Add/Adds_from_lesson_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3/HW/HW_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3/HW/HW_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3/HW/HW_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson3/HW/HW_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676996455911</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="L2_adds_add">
+      <created>1676996649419</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676996649419</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +119,7 @@
     <MESSAGE value="L2_HW_2 create" />
     <MESSAGE value="L2_Class_L2 create" />
     <MESSAGE value="L2_full_add" />
-    <option name="LAST_COMMIT_MESSAGE" value="L2_full_add" />
+    <MESSAGE value="L2_adds_add" />
+    <option name="LAST_COMMIT_MESSAGE" value="L2_adds_add" />
   </component>
 </project>
