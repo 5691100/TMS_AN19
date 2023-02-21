@@ -1,8 +1,9 @@
-package Lesson2.HW;
+package Lesson2.HW_IF;
 
 import java.util.Scanner;
 
 import static java.lang.System.in;
+
 
 public class HW_2 {
 

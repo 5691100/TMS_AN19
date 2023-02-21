@@ -1,7 +1,9 @@
-### IntelliJ IDEA ###
 .idea
 *class
 *iml
+
+### IntelliJ IDEA ###
+
 
 
 out/
