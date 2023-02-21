@@ -1,4 +1,4 @@
-package Lesson2;
+package Lesson2.HW;
 
 import java.util.Scanner;
 
