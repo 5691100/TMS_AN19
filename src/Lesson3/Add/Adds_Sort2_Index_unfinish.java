@@ -3,7 +3,7 @@ package Lesson3.Add;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Adds_Sort2_Index {
+public class Adds_Sort2_Index_unfinish {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -31,43 +31,19 @@ public class Adds_Sort2_Index {
         int minMin = Integer.MAX_VALUE;
         int counter1 = 0;
         int counter2 = 0;
-        int check = 0;
         while (i < number1 + number2) {
-            if ((counter1 <= number1) && (counter2 <= number2)) {
-                if (array2[counter2] >= array1[counter1]) {
+            if (array2[counter2] >= array1[counter1]) {
                     minMin = array1[counter1];
                     if (counter1 != number1 - 1) {
                         counter1++;
-                    }
-                    if (counter1 == number1 - 1) {
-                        check = 1;
                     }
                 } else {
                     minMin = array2[counter2];
                     if (counter2 != number2 - 1) {
                         counter2++;
                     }
-                    if (counter2 == number2 - 1) {
-                        check = 2;
-                    }
                 }
-
-            }
-            switch (check) {
-                case 0 -> array3[i] = minMin;
-                case 1 -> {
-                    array3[i] = array2[counter2];
-                    if (counter2 != number2 - 1) {
-                        counter2++;
-                    }
-                }
-                case 2 -> {
-                    array3[i] = array1[counter1];
-                    if (counter1 != number1 - 1) {
-                        counter1++;
-                    }
-                }
-            }
+            array3[i] = minMin;
             i++;
         }
         System.out.println("Array Merged: " + Arrays.toString(array3));

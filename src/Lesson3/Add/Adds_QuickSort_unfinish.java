@@ -3,7 +3,7 @@ package Lesson3.Add;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Adds_QuickSort {
+public class Adds_QuickSort_unfinish {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of array's elements: ");
