@@ -39,7 +39,6 @@ public class Adds_6 {
             if (sumCheck > sumMax) {
                 for (int k = 0; k < counter + 1; k++) {
                     arrayMax[k] = arrayCheck[k];
-                    arrayCheck[k] = 0;
                 }
                 maxCounter = counter + 1;
                 sumMax = sumCheck;
