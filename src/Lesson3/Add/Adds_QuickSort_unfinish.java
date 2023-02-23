@@ -13,48 +13,47 @@ public class Adds_QuickSort_unfinish {
             array[i] = (int) (Math.random() * 100);
         }
 
-        System.out.println("Gotten array: " + Arrays.toString(array));
+        System.out.println("Initial array: " + Arrays.toString(array));
 
-        int j = 0;
+        int j = 1;
         int pivotN = 0;
         int leftmost = 0;
         int help = 0;
         int pivot = array[pivotN];
 
-//        while (number>1){
-        j = 1;
-        while (j < number) {
-            while (array[j] < pivot) {
-                if (j != number - 1) {
-                    j++;
-                } else {
-                    break;
+//        while (number > 1) {
+            j=1;
+            while (j < number) {
+                while (array[j] < pivot) {
+                    if (j != number - 1) {
+                        j++;
+                    } else {
+                        break;
+                    }
                 }
-            }
-            leftmost = j;
-            while (array[j] >= pivot) {
-                if (j != number - 1) {
-                    j++;
-                } else {
-                    break;
+                leftmost = j;
+                while (array[j] >= pivot) {
+                    if (j != number - 1) {
+                        j++;
+                    } else {
+                        break;
+                    }
                 }
+                if (array[j] < pivot) {
+                    help = array[j];
+                    array[j] = array[leftmost];
+                    array[leftmost] = help;
+                    j = leftmost;
+                }
+                j++;
             }
-            if (array[j] < pivot) {
-                help = array[j];
-                array[j] = array[leftmost];
-                array[leftmost] = help;
-                j = leftmost;
-            }
-            j++;
-        }
-        help = array[leftmost - 1];
-        array[leftmost - 1] = pivot;
-        array[pivotN] = help;
-        number = leftmost;
+            help = array[leftmost - 1];
+            array[leftmost - 1] = pivot;
+            array[pivotN] = help;
+            number = leftmost-1;
+//        }
 
-//   }
-
-        System.out.println("First array: " + Arrays.toString(array));
+        System.out.println("New array: " + Arrays.toString(array));
         System.out.println(leftmost);
     }
 }

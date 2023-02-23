@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf360d8a-1966-46f1-a54f-0f09fe04692b" name="Changes" comment="L3_Adds_Sort2_index_final">
+    <list default="true" id="bf360d8a-1966-46f1-a54f-0f09fe04692b" name="Changes" comment="L3_Adds_QuickSort+">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lesson3/Add/Adds_QuickSort_unfinish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson3/Add/Adds_QuickSort_unfinish.java" afterDir="false" />
     </list>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677049904083</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="L3_Adds_QuickSort+">
+      <created>1677074620244</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677074620244</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +154,7 @@
     <MESSAGE value="L3_adds_fix" />
     <MESSAGE value="Adds_Sort2_index_finish" />
     <MESSAGE value="L3_Adds_Sort2_index_final" />
-    <option name="LAST_COMMIT_MESSAGE" value="L3_Adds_Sort2_index_final" />
+    <MESSAGE value="L3_Adds_QuickSort+" />
+    <option name="LAST_COMMIT_MESSAGE" value="L3_Adds_QuickSort+" />
   </component>
 </project>
