@@ -39,14 +39,9 @@ public class Adds_6 {
             if (sumCheck > sumMax) {
                 for (int k = 0; k < counter + 1; k++) {
                     arrayMax[k] = arrayCheck[k];
-                    arrayCheck[k] = 0;
                 }
                 maxCounter = counter + 1;
                 sumMax = sumCheck;
-            } else {
-                for (int k = 0; k < counter + 1; k++) {
-                    arrayCheck[k] = 0;
-                }
             }
             i += counter + 1;
         }
@@ -56,5 +51,6 @@ public class Adds_6 {
         System.arraycopy(arrayMax, 0, arrayFinal, 0, maxCounter);
         System.out.println("Max sequence: " + Arrays.toString(arrayFinal));
         System.out.println(maxCounter);
+
     }
 }
