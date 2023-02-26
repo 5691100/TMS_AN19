@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf360d8a-1966-46f1-a54f-0f09fe04692b" name="Changes" comment="L5_Additional_finish3">
-      <change afterPath="$PROJECT_DIR$/src/Lesson5/Adds/Adds_7.java" afterDir="false" />
+    <list default="true" id="bf360d8a-1966-46f1-a54f-0f09fe04692b" name="Changes" comment="L5_Additional_Adds7_task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson5/Adds/Adds_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson5/Adds/Adds_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677178886588</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="L5_Additional_Adds7">
+      <created>1677411856746</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677411856746</updated>
+    </task>
+    <task id="LOCAL-00019" summary="L5_Additional_Adds7_task">
+      <created>1677412017090</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677412017090</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +220,8 @@
     <MESSAGE value="L5_Additional_finish" />
     <MESSAGE value="L5_Additional_finish2" />
     <MESSAGE value="L5_Additional_finish3" />
-    <option name="LAST_COMMIT_MESSAGE" value="L5_Additional_finish3" />
+    <MESSAGE value="L5_Additional_Adds7" />
+    <MESSAGE value="L5_Additional_Adds7_task" />
+    <option name="LAST_COMMIT_MESSAGE" value="L5_Additional_Adds7_task" />
   </component>
 </project>
