@@ -1,3 +1,5 @@
+git rm --cached TMS_AN19
+
 .idea
 *class
 *iml
