@@ -12,7 +12,7 @@ public class HW_2 {
         int cashRequest = sc.nextInt();
         System.out.println("Withdrawal check: " + atm.withdrawalCheck(cashRequest));
         if (atm.withdrawalCheck(cashRequest)) {
-            atm.billsCounter(cashRequest).displayInfo();
+            atm.displayInfo();
         }
 
 
