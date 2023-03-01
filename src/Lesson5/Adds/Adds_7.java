@@ -94,6 +94,7 @@ class Student {
     }
 
     void displayInfo() {
+
         System.out.printf("Name: %s\tGroup: %d\tMark: %d\n", name, group, mark);
     }
 }
