@@ -79,7 +79,11 @@ public class ATM {
                     return false;
                 }
             }
-            twenty = (int) (num20 + add20 * 2.5);
+            if (num20+add20<=twenty) {
+                twenty = (int) (num20 + add20 * 2.5);
+            } else {
+                return false;
+            }
             return true;
         }
     }
