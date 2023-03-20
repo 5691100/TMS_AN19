@@ -39,8 +39,7 @@ public class DocumentNumber {
 
         for (String part : partsOfNumber) {
             if (part.length() == 3) {
-                String str = part.replace(part, "***");
-                joiner.add(str);
+                joiner.add("***");
             } else {
                 joiner.add(part);
             }
@@ -77,16 +76,8 @@ public class DocumentNumber {
     }
 
     public static void getABC (String document) {
-        int counter = 0;
-        for (int i=0; i<document.length()-3;i++) {
-            if (document.substring(i,i+2).equalsIgnoreCase("abc")) {
-                counter++;
-            }
-        }
-        if (document.substring((document.length()-3)).equalsIgnoreCase("abc")) {
-            counter++;
-        }
-        if (counter > 0) {
+        int index = document.toLowerCase().indexOf("abc");
+        if (index != -1) {
             System.out.println("ABC exist!");
         } else {
             System.out.println("No ABC!");
