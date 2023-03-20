@@ -11,23 +11,21 @@ public class MinimumDifferences {
         int minDifferences = Integer.MAX_VALUE;
         String minDifWord = strings[0];
         for (String word : strings) {
-            int counter = 0;
+            StringBuilder uniqueLetters = new StringBuilder();
             for (int i = 0; i < word.length(); i++) {
                 for (int j = 0; j < word.length(); j++) {
-                    if (i != j) {
+                    if (uniqueLetters.toString().indexOf(word.charAt(i)) == -1) {
                         if (word.charAt(i) != word.charAt(j)) {
-                            counter++;
-
+                            uniqueLetters.append(word.charAt(i));
                         }
                     }
                 }
             }
-            if (counter<minDifferences) {
-                minDifferences = counter;
+            if (uniqueLetters.toString().length()<minDifferences) {
+                minDifferences = uniqueLetters.toString().length();
                 minDifWord = word;
             }
         }
         System.out.println("Word with minimum differences: " + minDifWord);
     }
-
 }
