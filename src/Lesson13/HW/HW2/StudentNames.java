@@ -25,11 +25,10 @@ public class StudentNames {
                 .collect(Collectors.toList());
         System.out.println("Names started from A: " + firstLetterA);
 
-        List<String> firstElement = students.stream()
+        Optional<String> firstElement = students.stream()
                 .sorted()
-                .limit(1)
-                .collect(Collectors.toList());
-        System.out.println("First element: " + firstElement);
+                .findFirst();
+        System.out.println("First element: " + firstElement.get());
 
 
     }

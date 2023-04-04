@@ -27,8 +27,8 @@ public class Collection {
         System.out.println("Without doubles: " + output1);
 
         List<Integer> output2 = input.stream()
-                .limit(17)
-                .skip(6)
+                .filter(number -> number < 18)
+                .filter(number -> number > 6)
                 .filter(number -> number%2 == 0)
                 .collect(Collectors.toList());
         System.out.println("From 7 to 17: " + output2);
